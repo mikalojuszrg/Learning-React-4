@@ -18,7 +18,7 @@ const Card = ({ weather }) => {
   };
 
   const { icon, backgroundColor } = getWeatherIcon(
-    weather.daily.weathercode[1]
+    weather.daily.weathercode[0]
   );
 
   console.log(weather);
